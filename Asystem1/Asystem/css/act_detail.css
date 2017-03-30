@@ -1,0 +1,108 @@
+/*活动详情页 上半部分 左边*/
+.act_detail_right_top{
+    position:relative;
+    width:100%;
+    height:210px;
+    *border:3px solid pink;
+}
+.act_detail_left{
+   *border:1px solid yellow;
+    position:relative;
+    width:70%;
+  *  height:450px;
+}
+.act_detail_simple{
+    position:absolute;
+    margin:30px 20px;
+    width:90%;
+    *height:80%;
+    padding: 5px;
+   * border: 1px solid red;
+}
+.act_detail_simple>span{
+    display:block;
+    margin:5px;
+}
+.act_detail_signup{
+    position:absolute;
+   * border:1px solid green;
+    width:90%;
+    top:150px;
+    margin:20px;
+}
+.act_detail_a{
+       * display:block;
+       * height:40px;
+      *  width:140px;
+       color:rgb(255,255,255);
+        background-color:rgb(22,155,213);
+        font-size: 13px;
+        padding:15px 40px;
+}
+/*活动详情页 上半部分 右边 日期图片*/
+.act_detail_right{
+      position:absolute;
+      /*margin:  45px 80px;*/
+      height:210px;
+      border:1px solid #000000;
+      width:30%;
+      top:0px;
+      right:0;
+}
+.act_detail_right>img{
+     margin:  40px 80px;
+}
+.act_detail_right_bottom{
+    position:relative;
+    top:20px;
+    width:98%;
+    margin: 0 auto;
+    height:200px;
+    text-align: center;
+    line-height: 200px;
+    border:2px solid orange;
+}
+#act_detail_pop_outer{
+    display: none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 10;
+}
+.Act_Detail_Pop{
+    box-sizing: border-box;
+    width: 600px;
+    *height: 300px;
+    *border: 10px solid red;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -300px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.12);
+    padding: 45px 50px;
+}
+.act_detail_Pop_content{
+   * position:absolute;
+    margin: -5px auto;
+    width:500px;
+   * border: 2px solid black;
+}
+.act_detail_Pop_content div{
+     margin: 8px;
+}
+.act_detail_pop_close{
+    position: absolute;
+    right: 10px;
+    top:5px;
+}
+.upload{
+        margin:0 20px;
+}
+.reset{
+     margin: 0 30px;
+}
