@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/main.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/teacher.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/teacher_show.css"/>
+	</head>
+	<body>
+
+		<div id="top">
+            <div id="top_box">
+                <a href="systemMain.html">
+                    <figure id="top_logo">
+                        <img src="img/3888013853304783481.jpg" width="100%" />
+                    </figure>
+                </a>
+
+                <ul id="nav">
+                    <li class="nav_li"><a class="nav_a" href="dynamic.html">新闻</a>
+
+                    </li><li class="nav_li"><a class="nav_a" href="#">活动</a>
+                        <div class="tribox">
+                  <span class="tri"></span>
+                </div>
+                        <ul class="nav_li_ul">
+                            <li class="nav_li_li"><a class="nav_li_a" href="act_detail.html">活动展示</a>
+
+                            </li><li class="nav_li_li"><a class="nav_li_a" href="act_list.html">活动成果</a>
+
+                            </li>
+                        </ul>
+                    </li><li class="nav_li"><a class="nav_a" href="#">导师</a>
+                    <div class="tribox">
+              <span class="tri"></span>
+            </div>
+                        <ul class="nav_li_ul">
+                            <li class="nav_li_li"><a class="nav_li_a" href="teacher1.html">校内导师</a>
+
+                            </li><li class="nav_li_li"><a class="nav_li_a" href="teacher2.html">校外导师</a>
+
+                            </li>
+                        </ul>
+                    </li><li class="nav_li"><a class="nav_a" href="practice.html">企业</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+		<div id="body">
+			<div id="body_left">
+				<ul id="body_left_ul">
+					<li class="body_left_li"><a class="body_left_a" href='dynamic.html'>最新动态</a>
+
+					</li><li class="body_left_li"><a class="body_left_a" onclick="ocUl(document.getElementsByClassName('body_left_second_ul')[0])">活动内容</a><span class="tri1"></span>
+						<ul class="body_left_second_ul">
+							<li class="body_left_second_li"><a href="act_detail.html">活动报名</a></li>
+							<li class="body_left_second_li"><a href="act_list.html">活动成果</a></li>
+						</ul>
+					</li><li class="body_left_li" id="getcolor"><a class="body_left_a" onclick="ocUl(document.getElementsByClassName('body_left_second_ul')[1])">导师风采</a><span class="tri1"></span>
+						<ul class="body_left_second_ul">
+							<li class="body_left_second_li"><a href="teacher1.html">校内导师</a></li>
+							<li class="body_left_second_li"><a href="teacher2.html">校外导师</a></li>
+						</ul>
+					</li><li class="body_left_li"><a class="body_left_a" href="practice.html">实践基地</a>
+					</li>
+				</ul>
+			</div>
+
+			<div id="body_right">
+				<h2 class="body_right_h1">校内导师</h2>
+
+				<figure id="body_figure">
+					<img src="img/3888013853304783481.jpg" width="100%" />
+				</figure>
+
+				<div id="body_box">
+					导师介绍
+				</div>
+			</div>
+
+		</div>
+
+		<div id="foot">
+			<div id="foot_box">
+				<label>
+					<span class="foot_span">相关链接</span>&nbsp;
+					&nbsp;
+					&nbsp;
+					<select>
+						<option class="foot_option">校内链接</option>
+					</select>&nbsp;&nbsp;&nbsp;
+					<select>
+						<option class="foot_option">校外链接</option>
+					</select>
+				</label>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/dynamic.js" ></script>
+	</body>
+</html>
