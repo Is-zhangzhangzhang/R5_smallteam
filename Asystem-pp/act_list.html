@@ -1,0 +1,145 @@
+<html>
+    <head>
+                        <!-- 活动详情-->
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet"  href="css/act_list.css"/>
+    </head>
+    <body>
+
+                        <!-- 顶部与首页一致保持不变 -->
+        <div id="top">
+            <div id="top_box">
+                <a href="systemMain.html">
+                    <figure id="top_logo">
+                        <img src="img/3888013853304783481.jpg" width="100%" />
+                    </figure>
+                </a>
+
+                <ul id="nav">
+                    <li class="nav_li"><a class="nav_a" href="dynamic.html">新闻</a>
+
+                    </li><li class="nav_li"><a class="nav_a" href="#">活动</a>
+                        <div class="tribox">
+                  <span class="tri"></span>
+                </div>
+                        <ul class="nav_li_ul">
+                            <li class="nav_li_li"><a class="nav_li_a" href="act_detail.html">活动展示</a>
+
+                            </li><li class="nav_li_li"><a class="nav_li_a" href="act_list.html">活动成果</a>
+
+                            </li>
+                        </ul>
+                    </li><li class="nav_li"><a class="nav_a" href="#">导师</a>
+                    <div class="tribox">
+              <span class="tri"></span>
+            </div>
+                        <ul class="nav_li_ul">
+                            <li class="nav_li_li"><a class="nav_li_a" href="teacher1.html">校内导师</a>
+
+                            </li><li class="nav_li_li"><a class="nav_li_a" href="teacher2.html">校外导师</a>
+
+                            </li>
+                        </ul>
+                    </li><li class="nav_li"><a class="nav_a" href="practice.html">企业</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+               <div id="body">
+            <!-- <div id="body_left_activity"> -->
+            <div id="body_left">
+                <ul id="body_left_ul">
+                    <li class="body_left_li"><a class="body_left_a" href='dynamic.html'>最新动态</a>
+
+                    </li><li class="body_left_li"><a class="body_left_a" onclick="ocUl(document.getElementsByClassName('body_left_second_ul')[0])">活动内容</a><span class="tri1"></span>
+                        <ul class="body_left_second_ul">
+                            <li class="body_left_second_li"><a href="act_detail.html">活动报名</a></li>
+                            <li class="body_left_second_li" id="getcolor"><a href="act_list.html">活动成果</a></li>
+                        </ul>
+                    </li><li class="body_left_li"><a class="body_left_a" onclick="ocUl(document.getElementsByClassName('body_left_second_ul')[1])">导师风采</a><span class="tri1"></span>
+                        <ul class="body_left_second_ul">
+                            <li class="body_left_second_li"><a href="teacher1.html">校内导师</a></li>
+							<li class="body_left_second_li"><a href="teacher2.html">校外导师</a></li>
+                        </ul>
+                    </li><li class="body_left_li"><a class="body_left_a" href="practice.html">实践基地</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <div  id="body_right_activity" > -->
+            <div  id="body_right" >
+                    <div id="activity_list">
+                         <div class="activity_list_title">
+                                <span>&nbsp;活动详情</span>
+                         </div>
+
+                      <ul class="activity_list_ul">
+                          <li class="activity_list_li">
+                                <div class="activity_list_time">日期</div>
+                                <div class="activity_list_content">
+                                       <h3>会计学系博士论坛2017年第1期</h3>
+                                       <span>时间：2017年03月13日 10：00</span>
+                                       <span>地点：管理学院103室</span>
+                                       <a class="activity_list_li_a" href="#">活动详情</a>
+                                </div>
+                          </li>
+                          <li class="activity_list_li">
+                                <div class="activity_list_time">日期</div>
+                                <div class="activity_list_content">
+                                       <h3>会计学系博士论坛2017年第1期</h3>
+                                       <span>时间：2017年03月13日 10：00</span>
+                                       <span>地点：管理学院103室</span>
+                                       <a class="activity_list_li_a" href="#">活动详情</a>
+                                </div>
+                          </li>
+                          <li class="activity_list_li">
+                                <div class="activity_list_time">日期</div>
+                                <div class="activity_list_content">
+                                       <h3>会计学系博士论坛2017年第1期</h3>
+                                       <span>时间：2017年03月13日 10：00</span>
+                                       <span>地点：管理学院103室</span>
+                                       <a class="activity_list_li_a" href="#">活动详情</a>
+                                </div>
+                          </li>
+                          <li class="activity_list_li">
+                                <div class="activity_list_time">日期</div>
+                                <div class="activity_list_content">
+                                       <h3>会计学系博士论坛2017年第1期</h3>
+                                       <span>时间：2017年03月13日 10：00</span>
+                                       <span>地点：管理学院103室</span>
+                                       <a class="activity_list_li_a" href="#">活动详情</a>
+                                </div>
+                          </li>
+                      </ul>
+
+                       <div class="activity_list_last">上一页</div>
+                        <div class="activity_list_next">下一页</div>
+                    </div>
+            </div>
+        </div>
+
+
+                        <!-- 底部和首页也一致 -->
+        <div id="foot">
+            <div id="foot_box">
+                <label>
+                    <span class="foot_span">相关链接</span>&nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <select>
+                        <option class="foot_option">校内链接</option>
+                    </select>&nbsp;&nbsp;&nbsp;
+                    <select>
+                        <option class="foot_option">校外链接</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/dynamic.js" ></script>
+    </body>
+</html>
