@@ -78,8 +78,8 @@
     *height: 300px;
     *border: 10px solid red;
     position: absolute;
-    left: 50%;
-    top: 10%;
+    left: 52%;
+    top: 5%;
     margin-left: -300px;
     border-radius: 3px;
     background-color: #fff;
@@ -89,20 +89,72 @@
 .act_detail_Pop_content{
    * position:absolute;
     margin: -5px auto;
-    width:500px;
-   * border: 2px solid black;
+    width:450px;
+   *border: 2px solid black;
 }
 .act_detail_Pop_content div{
-     margin: 8px;
+     margin: 8px 20px;
+}
+.act_detail_pop_title{
+      padding:15px 0;
+      text-align: center;
 }
 .act_detail_pop_close{
     position: absolute;
     right: 10px;
     top:5px;
 }
+.act_detail_Pop_content input[type="text"]{
+     background-color: #ffffff;
+     border:1px solid #cccccc;
+     border-radius:3px;
+     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+     transition:border linear 0.2s, box-shadow linear 0.2s;
+     height:18px;
+     width: 220px;
+     padding:4px;
+     font-size: 13px;
+     line-height: 18px;
+     color:#555555;
+}
+.act_detail_Pop_content select{
+      color:#555555;
+      border:1px solid #cccccc;
+       box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+     transition:border linear 0.2s, box-shadow linear 0.2s;
+      border-radius: 3px;
+      width:220px;
+      height:28px;
+      line-height: 28px;
+      font-size: 13px;
+}
+.act_detail_Pop_content_span{
+       display:inline-block;
+       width:100px;
+       text-align: center;
+       *border:2px solid red;
+}
 .upload{
-        margin:0 20px;
+        margin:20px 0  10px 90px;
+        color:rgb(255,255,255);
+        border:none;
+        border-color: rgb(22,155,213);
+        box-shadow: inset 0 1px 1px rgb(22,155,213);
+        background:none;
+        background-color:rgb(22,155,213);
+        font-size: 15px;
+        width:80px;
+        height:25px;
 }
 .reset{
-     margin: 0 30px;
+       margin:20px 0 10px 110px;
+       color:rgb(255,255,255);
+        border:none;
+        border-color: rgb(22,155,213);
+        box-shadow: inset 0 1px 1px rgb(22,155,213);
+        background:none;
+        background-color:rgb(22,155,213);
+        font-size: 15px;
+        width:80px;
+        height:25px;
 }

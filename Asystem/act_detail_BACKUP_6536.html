@@ -9,15 +9,31 @@
         <link rel="stylesheet" href="css/act_detail.css" />
     </head>
     <body>
+<<<<<<< HEAD
+
+        <div id="top">
+            <div id="top_box">
+                <a href="#">
+=======
         <div id="top">
             <div id="top_box">
                 <a href="systemMain.html">
+>>>>>>> 0cda4a057bd047035123061c795e595ea2fe992c
                     <figure id="top_logo">
                         <img src="img/3888013853304783481.jpg" width="100%" />
                     </figure>
                 </a>
 
                 <ul id="nav">
+<<<<<<< HEAD
+                    <li class="nav_li"><a class="nav_a" href="#">新闻</a>
+
+                    </li><li class="nav_li"><a class="nav_a" href="#">活动</a>
+                        <ul class="nav_li_ul">
+                            <li class="nav_li_li"><a class="nav_li_a" href="#">活动展示</a>
+
+                            </li><li class="nav_li_li"><a class="nav_li_a" href="#">活动成果</a>
+=======
                     <li class="nav_li"><a class="nav_a" href="dynamic.html">新闻</a>
 
                     </li><li class="nav_li"><a class="nav_a" href="#">活动</a>
@@ -28,10 +44,21 @@
                             <li class="nav_li_li"><a class="nav_li_a" href="act_detail.html">活动展示</a>
 
                             </li><li class="nav_li_li"><a class="nav_li_a" href="act_list.html">活动成果</a>
+>>>>>>> 0cda4a057bd047035123061c795e595ea2fe992c
 
                             </li>
                         </ul>
                     </li><li class="nav_li"><a class="nav_a" href="#">导师</a>
+<<<<<<< HEAD
+                        <ul class="nav_li_ul">
+                            <li class="nav_li_li"><a class="nav_li_a" href="#">校内导师</a>
+
+                            </li><li class="nav_li_li"><a class="nav_li_a" href="#">校外导师</a>
+
+                            </li>
+                        </ul>
+                    </li><li class="nav_li"><a class="nav_a" href="#">企业</a>
+=======
                     <div class="tribox">
               <span class="tri"></span>
             </div>
@@ -43,17 +70,33 @@
                             </li>
                         </ul>
                     </li><li class="nav_li"><a class="nav_a" href="practice.html">企业</a>
+>>>>>>> 0cda4a057bd047035123061c795e595ea2fe992c
 
                     </li>
                 </ul>
             </div>
         </div>
 
+<<<<<<< HEAD
+        <div id="body">
+=======
             <div id="body">
+>>>>>>> 0cda4a057bd047035123061c795e595ea2fe992c
             <div id="body_left">
                 <ul id="body_left_ul">
                     <li class="body_left_li"><a class="body_left_a" href='dynamic.html'>最新动态</a>
 
+<<<<<<< HEAD
+                    </li><li class="body_left_li"><a class="body_left_a" onclick="ocUl(document.getElementsByClassName('body_left_second_ul')[0])">活动内容</a><span class="tri"></span>
+                        <ul class="body_left_second_ul">
+                            <li class="body_left_second_li"><a href="act_detail.html">活动报名</a></li>
+                            <li class="body_left_second_li"><a href="act_list.html">活动成果</a></li>
+                        </ul>
+                    </li><li class="body_left_li"><a class="body_left_a" onclick="ocUl(document.getElementsByClassName('body_left_second_ul')[1])">导师风采</a><span class="tri"></span>
+                        <ul class="body_left_second_ul">
+                            <li class="body_left_second_li"><a href="teacher1.html">校内导师</a></li>
+							<li class="body_left_second_li"><a href="teacher2.html">校外导师</a></li>
+=======
                     </li><li class="body_left_li"><a class="body_left_a" onclick="ocUl(document.getElementsByClassName('body_left_second_ul')[0])">活动内容</a><span class="tri1"></span>
                         <ul class="body_left_second_ul">
                             <li class="body_left_second_li" id="getcolor"><a href="act_detail.html">活动报名</a></li>
@@ -63,6 +106,7 @@
                         <ul class="body_left_second_ul">
                             <li class="body_left_second_li"><a href="teacher1.html">校内导师</a></li>
               <li class="body_left_second_li"><a href="teacher2.html">校外导师</a></li>
+>>>>>>> 0cda4a057bd047035123061c795e595ea2fe992c
                         </ul>
                     </li><li class="body_left_li"><a class="body_left_a" href="practice.html">实践基地</a>
                     </li>
@@ -112,43 +156,38 @@
         <div  id="act_detail_pop_outer">
               <div  class="Act_Detail_Pop">
                       <img class="act_detail_pop_close" src="images/活动详情页/xx.png">
-                     <h3 class="act_detail_pop_title">活动报名</h3>
+                     <!-- <div class="act_detail_write"> -->
                            <form class="act_detail_Pop_content">
-
-                                 <div><span class="act_detail_Pop_content_span">姓名：</span><input type="text" name="name"></div>
-                                 <div><span class="act_detail_Pop_content_span">学号：</span><input type="text" name="ID"></input></div>
-                                  <div><span class="act_detail_Pop_content_span">手机：</span><input type="text" name="Phone"></div>
-                                  <div><span class="act_detail_Pop_content_span">生日：</span><input type="text" name="Birthday"></div>
-                                  <div><span  class="act_detail_Pop_content_span">身份证所在：</span><input type="text" name="ID_location"></div>
-                                  <div><span class="act_detail_Pop_content_span">身份证号码：</span><input type="text" name="ID_number"></div>
-                                  <div><span class="act_detail_Pop_content_span">微信号：</span><input type="text" name="Wechat"></div>
-                                  <div>
-                                        <span class="act_detail_Pop_content_span">学院：</span>
-                                        <select  name="academy">
-                                             <option value="">数学与信息学院</option>
-                                             <option value="" selected="selected">软件学院</option>
-                                             <option value="">工程学院</option>
-                                        </select>
-                                    </div>
-                                  <div>
-                                      <span class="act_detail_Pop_content_span">系：</span>
-                                       <select  name="Faculty">
-                                           <option value="" selected="selected">计算机系</option>
-                                           <option value="">aaa系</option>
-                                           <option value="">bbb系</option>
-                                      </select>
-                                  </div>
-                                  <div>
-                                        <span class="act_detail_Pop_content_span">专业：</span>
-                                        <select  name="Major">
-                                             <option value="" selected="selected">软件工程</option>
-                                             <option value="">网络工程</option>
-                                             <option value="">工业工程</option>
-                                        </select>
-                                  </div>
+                                 <h3>活动报名</h3>
+                                 <div>姓名：<input type="text" name="name"></div>
+                                 <div>学号：<input type="text" name="ID"></div>
+                                  <div>手机：<input type="text" name="Phone"></div>
+                                  <div>生日：<input type="text" name="Birthday"></div>
+                                  <div>身份证所在：<input type="text" name="ID_location"></div>
+                                  <div>身份证号码：<input type="text" name="ID_number"></div>
+                                  <div>微信号：<input type="text" name="Wechat"></div>
+                                  <div>学院：
+                                  <select  name="academy">
+                                       <option value="">数学与信息学院</option>
+                                       <option value="" selected="selected">软件学院</option>
+                                       <option value="">工程学院</option>
+                                  </select></div>
+                                  <div>系：
+                                   <select  name="Faculty">
+                                       <option value="" selected="selected">计算机系</option>
+                                       <option value="">aaa系</option>
+                                       <option value="">bbb系</option>
+                                  </select></div>
+                                  <div>专业：
+                                  <select  name="Major">
+                                       <option value="" selected="selected">软件工程</option>
+                                       <option value="">网络工程</option>
+                                       <option value="">工业工程</option>
+                                  </select></div>
                                  <button type="submit" class="upload">提交</button>
                                  <button type="reset" class="reset">重置</button>
                            </form>
+                     <!-- </div> -->
               </div>
         </div>
 
