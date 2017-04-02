@@ -1,0 +1,119 @@
+/*
+* @Author: anchen
+* @Date:   2017-03-10 12:27:16
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-23 21:31:35
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#Top_back{
+      width: 100%;
+      height: 117px;
+      background-color: #eeeeee;
+      border-bottom: 2px solid #cccccc;
+}
+#Top_middle{
+    width:985px;
+    height:115px;
+    margin: 0 auto;
+    *border:1px solid red;
+}
+.Top_logo{
+    padding:45px 0 20px;
+    float: left;
+   * border:2px solid green;
+}
+.Top_logo > a{
+     text-decoration: none;
+     font-size: 32px;
+    * clear: both;
+}
+.Top_right{
+    float:right;
+   * border:2px solid orange;
+}
+.Top_search{
+    padding:5px 0 0;
+    float:right;
+   * border:2px solid black;
+}
+.Top_search>form{
+    display:inline-block;
+}
+.Top_search_text{
+  *  background-color: red;;
+    border:none;
+    height:24px;
+    line-height: 24px;
+    width:110px;
+    padding:0 10px;
+    float:left;
+    *clear:both;
+    color:#dcdcdc;
+}
+.Top_search>form{
+    float:left;
+}
+.Top_search_find{
+    margin:0;
+    padding:0;
+    border:none;
+    height:24px;
+    line-height: 24px;
+    width:38px;
+    float:left;
+    display: inline-block;
+    margin:0 5px 0 10px;
+}
+.Top_nav{
+    overflow: hidden;
+    clear:both;
+    *display:inline-block;
+    padding:35px 0 0;
+    text-align: right;
+    *border:2px solid yellow;
+}
+.Top_nav>a{
+    font-size: 18px;
+    padding:0 20px;
+    text-decoration: none;
+}
+.Top_nav_list{
+    display:none;
+    width:100%;
+    position: absolute;
+    top:100px;
+    left:0px;
+    z-index: 1;
+    padding-bottom:30px;
+    background:#eeeeee;
+    border-bottom: 2px solid #cccccc;
+    text-align: left;
+}
+.Top_nav_list ul{
+    *background;
+  *  width:635px;
+    padding:0 0 0 950px;
+    margin:0 auto;
+    overflow:hidden;
+    clear:both;
+}
+.Top_nav_list ul li{
+    width:88px;
+    padding:0 3px;
+    height:80px;
+    overflow:hidden;
+    border-right: 1px solid #cccccc;
+    float:left;
+    text-indent:6px;
+}
+.Top_nav_list ul li a{
+    display:block;
+    text-decoration: none;
+    padding:0 10px 0 10px;
+    margin-bottom: 10px;
+    color: #434343;
+    font-size: 14px;
+}
