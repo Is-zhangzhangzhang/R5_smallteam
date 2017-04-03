@@ -1,0 +1,25 @@
+#teacher_box{
+	/*width: 90%;*/
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	background: white;
+}
+#teacher_left{
+	flex: 4;
+}
+#teacher_left_box{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+#teacher_left_box>h1{
+	margin: 10px 0;
+}
+.teacher_left_span{
+	display: block;
+	margin: 5px 0;
+}
+#teacher_right{
+	flex: 2;
+}

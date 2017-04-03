@@ -1,0 +1,44 @@
+#li_box{
+	position: relative;
+	display: flex;
+}
+.teacher_li_left{
+	display: block;
+	position: relative;
+	flex: 1;
+}
+.teacher_li_right{
+	display: block;
+	position: relative;
+	flex: 1;
+}
+.teacher_li_ul{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+.teacher_li_li{
+	position: relative;
+	display: block;
+	min-height: 100px;
+	margin-bottom: 35px;
+}
+.li_photo{
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 40%;
+}
+.li_span{
+	position: relative;
+	display: inline-block;
+	width: 55%;
+	margin-left: 10px;
+}
+.li_span>a:hover{
+	text-decoration: underline;
+	color: #1086E6;
+}
+.li_small{
+	font-size: 10px;
+}

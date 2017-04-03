@@ -186,6 +186,9 @@ img,p,figcaption,div{
 	background: #5E5E5E;
 	color: white;
 }
+.body_all_a:hover .tri{
+	border-top: 6px solid white;
+}
 .body_li_ul{
 	position: relative;
 }
@@ -370,6 +373,7 @@ img,p,figcaption,div{
 	text-decoration: underline;
 }
 .body_middle_passage{
+	position: relative;
 	width: 90%;
 	margin: 10px auto 0;
 }
