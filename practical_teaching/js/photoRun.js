@@ -11,7 +11,7 @@ var photoRun = (function () {
 	var timer2;
 	var j;
 	var c = 5;
-	
+
 	for(var i = 0; i < photo.length; i++){
 		photo[i].style.opacity = 0;
 	}
@@ -43,7 +43,7 @@ var photoRun = (function () {
 			}
 		}, 10)
 	}
-	
+
 	var runright = function () {
 			var a1 = 10;
 			var b1 = 0;
@@ -106,7 +106,7 @@ var photoRun = (function () {
 			photoLi[1].style.display = 'inline-block';
 			photoLi[0].style.display = 'none';
 		}
-		
+
 		if(photo[photo.length - 1].style.opacity == 1){
 			photoLi[3].style.display = 'inline-block';
 			photoLi[2].style.display = 'none';
@@ -116,7 +116,7 @@ var photoRun = (function () {
 			photoLi[3].style.display = 'none';
 		}
 	}
-	
+
 	return {
 		runleft:runleft,//向左跑
 		runright:runright,//向右跑
@@ -130,7 +130,7 @@ var photoRun = (function () {
 var newsChange = (function (obj) {
 	var one = document.getElementsByClassName('body_span');
 	var two = document.getElementsByClassName('body_middle_passage');
-	
+
 	return function (obj) {
 		var j;
 		for(var i = 0; i < one.length; i++){
@@ -138,12 +138,13 @@ var newsChange = (function (obj) {
 				j = i;
 			}
 		}
-		
+
 		for(var i = 0; i < one.length;i++){
 			one[i].style.textDecoration = 'none';
+			one[i].style.borderTop = 'none';
 			two[i].style.display = 'none';
 		}
-		one[j].style.textDecoration = 'overline';
+		one[j].style.borderTop = '1px solid #1086e6'
 		two[j].style.display = 'block';
 	}
 })(newsChange)

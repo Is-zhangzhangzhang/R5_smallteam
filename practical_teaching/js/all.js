@@ -2,7 +2,7 @@ var navShow = (function () {
 	var show = document.getElementById('top_other_nav');
 	var none = document.getElementById('nav');
 	var timer;
-	
+
 	showTime = function () {
 		none.style.display = 'block';
 		none.style.opacity = 1;
@@ -19,7 +19,7 @@ var navShow = (function () {
 			}
 		}, 50)
 	}
-	
+
 	return {
 		showTime:showTime,
 		noneTime:noneTime
