@@ -5,8 +5,10 @@
 		<title>实践教学平台</title>
 		<link rel="stylesheet" href="css/all.css" />
 		<link rel="stylesheet" href="css/activity_information.css" />
+		<link rel="stylesheet" type="text/css" href="css/background.css">
 	</head>
 	<body>
+		<div id="all_background"></div>
 		<div id="top">
 			<div id="top_box">
 				<div id="top_photobox">
@@ -17,8 +19,8 @@
 
 				<div id="top_other">
 					<div id="top_other_search">
-						<input type="search" class="search" placeholder="SOMETHING" />
 						<img src="img/1491145650(1).jpg" id="search_photo" />
+						<input type="search" class="search" placeholder="SOMETHING" />
 					</div>
 					<ul id="top_other_nav" onmouseenter="navShow.showTime()" onmouseleave="navShow.noneTime()">
 						<li class="top_nav">
@@ -109,6 +111,7 @@
 
 		<div id="model">
 			<div id="model_box">
+			<h2>活动报名表</h2>
 				<input type="text" placeholder="姓名" class="input" />
 				<input type="text" placeholder="学号" class="input" />
 				<input type="text" placeholder="手机" class="input" />
@@ -139,7 +142,7 @@
 		</div>
 
 		<script type="text/javascript" src="js/all.js" ></script>
-		<!-- <script type="text/javascript" src="js/activity_information.js" ></script> -->
+		<script type="text/javascript" src="js/activity_information.js" ></script>
 		<script type="text/javascript" src="js/nav.js" ></script>
 	</body>
 </html>

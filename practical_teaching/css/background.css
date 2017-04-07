@@ -1,0 +1,17 @@
+/*
+* @Author: anchen
+* @Date:   2017-04-07 12:51:16
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-04-07 13:08:37
+*/
+#body{
+    background: rgba(0, 0, 0, 0.3);
+}
+#all_background{
+    top: 117px;
+    position: absolute;
+    height: 170px;
+    width: 100%;
+    background: rgba(200, 20, 50, 0.9);
+    z-index: 0;
+}

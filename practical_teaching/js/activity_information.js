@@ -1,16 +1,16 @@
-var footer = (function () {
-	var fooT = document.getElementById('foot');
-	var bodyer =  document.body.clientHeight;
-	var bodyer1 = document.body.scrollHeight;
-	
-	return function () {
-		if(bodyer1 > bodyer){
-			fooT.style.top = bodyer1 - 119 - 30 - 576 - 30 - 90 + 'px';
-		}
-	}
-})(footer);
+// var footer = (function () {
+// 	var fooT = document.getElementById('foot');
+// 	var bodyer =  document.body.clientHeight;
+// 	var bodyer1 = document.body.scrollHeight;
 
-footer();
+// 	return function () {
+// 		if(bodyer1 > bodyer){
+// 			fooT.style.top = bodyer1 - 119 - 30 - 576 - 30 - 90 + 'px';
+// 		}
+// 	}
+// })(footer);
+
+// footer();
 
 var model = (function () {
 	var Model = document.getElementById('model');
@@ -22,7 +22,7 @@ var model = (function () {
 	else{
 		Model.style.height = document.body.scrollHeight + 'px';
 	}
-	
+
 	var show = function () {
 		Model.style.display = 'block';
 		Model.style.opacity = 1;
@@ -37,7 +37,7 @@ var model = (function () {
 			}
 		}, 50)
 	}
-	
+
 	return {
 		show:show,
 		cancel:cancel

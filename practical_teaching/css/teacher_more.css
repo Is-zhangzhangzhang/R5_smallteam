@@ -7,11 +7,13 @@
 }
 #teacher_left{
 	flex: 4;
+	background: #eeeeee;
 }
 #teacher_left_box{
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 	position: relative;
+
 }
 #teacher_left_box>h1{
 	margin: 10px 0;
