@@ -30,6 +30,13 @@
 	float: left;
 	*width: 28%;
 	width:92px;
+	display:table;
+	text-align: center;
+	height:135px;
+}
+.li_photo_span{
+	 display:table-cell;
+	  vertical-align:middle;
 }
 .li_span{
 	position: relative;
