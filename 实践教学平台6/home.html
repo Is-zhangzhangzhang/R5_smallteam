@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>实践教学平台</title>
+		<link rel="stylesheet" href="css/all.css" />
+
+	</head>
+	<body>
+		<div id="top">
+			<div id="top_box">
+				<div id="top_photobox">
+					<a href="home.html">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+					</a>
+				</div>
+
+				<div id="top_other">
+					<div id="top_other_search">
+						<img src="img/1491145650(1).jpg" id="search_photo" />
+						<input type="search" class="search" placeholder="SOMETHING" />
+					</div>
+					<ul id="top_other_nav" onmouseenter="navShow.showTime()" onmouseleave="navShow.noneTime()">
+						<li class="top_nav">
+							<a href="news.html">最新活动</a>
+						</li><li class="top_nav">
+							<a href="activity.html">活动·讲座</a>
+						</li><li class="top_nav">
+							<a href="teache1.html">导师</a>
+						</li><li class="top_nav">
+							<a href="">企业风采</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="nav" onmouseenter="navShow.showTime()" onmouseleave="navShow.noneTime()">
+			<div id="nav_box">
+				<ul class="nav_ul">
+					<li class="nav_li"><a href="teache1.html">校内导师</a></li>
+					<li class="nav_li"><a href="teacher2.html">校外导师</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="body">
+			<div id="photo_run" onmousemove="photoRun.stop()" onmouseleave="photoRun.star()">
+				<div class="photo">
+					<div class="span_box">
+						<h1 class="span_box_h1">
+							实践教学平台1
+						</h1>
+						<div class="span_box_box">
+							<span class="span_box_span">实践教学平台实践教学平台实践教学平台</span>
+						</div>
+					</div>
+					<div class="photo_box">
+						<a href=""><img src="img/3888013853304783481.jpg" width="100%" /></a>
+					</div>
+				</div>
+
+				<div class="photo">
+					<div class="span_box">
+						<h1 class="span_box_h1">
+							实践教学平台2
+						</h1>
+						<div class="span_box_box">
+							<span class="span_box_span">实践教学平台实践教学平台实践教学平台</span>
+						</div>
+					</div>
+					<div class="photo_box">
+						<a href=""><img src="img/3888013853304783481.jpg" width="100%" /></a>
+					</div>
+				</div>
+
+				<div class="photo">
+					<div class="span_box">
+						<h1 class="span_box_h1">
+							实践教学平台3
+						</h1>
+						<div class="span_box_box">
+							<span class="span_box_span">实践教学平台实践教学平台实践教学平台</span>
+						</div>
+					</div>
+					<div class="photo_box">
+						<a href=""><img src="img/3888013853304783481.jpg" width="100%" /></a>
+					</div>
+				</div>
+
+				<ul id="photo_change">
+					<li class="photo_li">
+						<
+					</li><li class="photo_li photo_li2" onclick="photoRun.runright()">
+						<
+					</li><li class="photo_li photo_li2" onclick="photoRun.runleft()">
+						>
+					</li><li class="photo_li">
+						>
+					</li>
+
+				</ul>
+			</div>
+
+			<div id="body_box">
+                                                   <!-- <div id="body_left">
+					<div class="body_left_photo">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+					</div>
+					<div class="body_left_photo">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+					</div>
+					<div class="body_left_photo">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+					</div>
+
+				</div> -->
+				<div id="body_middle">
+					<div class="body_middle_top">
+						<span class="body_span" onmouseenter="newsChange(this)">最新动态
+
+						</span><span class="body_span" onmouseenter="newsChange(this)">通知公告
+
+						</span>
+
+						<a href=""><small class="body_small">更多...</small></a>
+					</div>
+
+					<ul class="body_middle_passage">
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE MORE MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE MORE MORE MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE MORE MORE MORE MORE MORE MORE MORE MORE MORE MORE</a>
+						</li>
+					</ul>
+
+					<ul class="body_middle_passage">
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE MORE MORE MORE MORE MORE MORE MORE MORE MORE MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE MORE MORE MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE MORE MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING MORE</a>
+						</li>
+						<li class="body_middle_li">
+							<span class="time">04-03</span>
+							<a class="middle_a" href="">SOMETHING</a>
+						</li>
+					</ul>
+                                                    </div>
+
+                                                    <div id="body_middle">
+					<div class="body_middle_top">
+						<span class="body_span1">活动·讲座</span>
+						<a href=""><small class="body_small">更多...</small></a>
+					</div>
+
+					<ul class="body_middle_passage">
+						<li class="body_middle_li1">
+							<div class="body_li_time">
+								<div class="time_day">
+									03
+								</div>
+								<div class="time_month">
+									Apr
+								</div>
+							</div>
+							<div class="body_li_passage">
+								<div class="passage_box">
+									<a class="passage_title" href="activity_information.html">SOMETHING MORE SOMETHING MORE SOMETHING MORE SOMETHING MORE</a>
+									<h3 class="h6">4月03日 00:00</h3>
+									<h3 class="h6">地点:没有</h3>
+									<a href="activity_information.html" class="passage_a">[活动详情]</a>
+								</div>
+							</div>
+						</li>
+
+						<li class="body_middle_li1">
+							<div class="body_li_time">
+								<div class="time_day">
+									02
+								</div>
+								<div class="time_month">
+									Apr
+								</div>
+							</div>
+							<div class="body_li_passage">
+								<div class="passage_box">
+									<a class="passage_title" href="activity_information.html">SOMETHING MORE</a>
+									<h3 class="h6">4月02日 00:00</h3>
+									<h3 class="h6">地点:没有</h3>
+									<a href="activity_information.html" class="passage_a">[活动详情]</a>
+								</div>
+							</div>
+						</li>
+
+						<li class="body_middle_li1">
+							<div class="body_li_time">
+								<div class="time_day">
+									01
+								</div>
+								<div class="time_month">
+									Apr
+								</div>
+							</div>
+							<div class="body_li_passage">
+								<div class="passage_box">
+									<a class="passage_title" href="activity_information.html">SOMETHING MORE</a>
+									<h3 class="h6">4月01日 00:00</h3>
+									<h3 class="h6">地点:没有</h3>
+									<a href="activity_information.html" class="passage_a">[活动详情]</a>
+								</div>
+							</div>
+						</li>
+
+						<li class="body_middle_li1">
+							<div class="body_li_time">
+								<div class="time_day">
+									01
+								</div>
+								<div class="time_month">
+									Apr
+								</div>
+							</div>
+							<div class="body_li_passage">
+								<div class="passage_box">
+									<a class="passage_title" href="activity_information.html">SOMETHING MORE</a>
+									<h3 class="h6">4月01日 00:00</h3>
+									<h3 class="h6">地点:没有</h3>
+									<a href="activity_information.html" class="passage_a">[活动详情]</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+
+                                                   <!--<div id="body_right">
+					<div class="body_right_other">
+						SOMETHING OTHER
+					</div>
+					<div class="body_right_other">
+						SOMETHING OTHER
+					</div>
+					<div class="body_right_other">
+						SOMETHING OTHER
+					</div>
+				</div> -->
+			</div>
+
+			<div id="company">
+				<div id="company_box">
+					<div id="company_title">
+						<h2 id="company_h2">企业基地</h2>
+						<a id="company_a" href="">查看更多</a>
+					</div>
+					<div class="company_photo">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+						<figcaption class="company_something">
+							<a href=""><p class="company_p">介绍MORE MORE MORE MORE MORE MORE</p></a>
+						</figcaption>
+					</div>
+					<div class="company_photo">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+						<figcaption class="company_something">
+							<a href=""><p class="company_p">介绍MORE MORE MORE MORE MORE MORE</p></a>
+						</figcaption>
+					</div>
+					<div class="company_photo">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+						<figcaption class="company_something">
+							<a href=""><p class="company_p">介绍MORE MORE MORE MORE MORE MORE</p></a>
+						</figcaption>
+					</div>
+					<div class="company_photo">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+						<figcaption class="company_something">
+							<a href=""><p class="company_p">介绍MORE MORE MORE MORE MORE MORE MORE</p></a>
+						</figcaption>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="foot">
+			<span class="foot_span">相关链接</span><br />
+			<a class="foot_span foot_a" href="">校内链接:</a><br />
+			<a class="foot_span foot_a" href="">校外链接:</a>
+		</div>
+
+		<script type="text/javascript" src="js/all.js" ></script>
+		<script type="text/javascript" src="js/photoRun.js" ></script>
+	</body>
+</html>

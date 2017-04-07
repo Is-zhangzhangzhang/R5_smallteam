@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>实践教学平台</title>
+		<link rel="stylesheet" href="css/all.css" />
+		<link rel="stylesheet" href="css/activity.css" />
+		<link rel="stylesheet" type="text/css" href="css/background.css">
+	</head>
+	<body>
+		<div id="all_background"></div>
+
+		<div id="top">
+			<div id="top_box">
+				<div id="top_photobox">
+					<a href="home.html">
+						<img src="img/3888013853304783481.jpg" width="100%" />
+					</a>
+				</div>
+
+				<div id="top_other">
+					<div id="top_other_search">
+						<img src="img/1491145650(1).jpg" id="search_photo" />
+						<input type="search" class="search" placeholder="SOMETHING" />
+					</div>
+					<ul id="top_other_nav" onmouseenter="navShow.showTime()" onmouseleave="navShow.noneTime()">
+						<li class="top_nav">
+							<a href="news.html">最新活动</a>
+						</li><li class="top_nav">
+							<a href="activity.html">活动·讲座</a>
+						</li><li class="top_nav">
+							<a href="teache1.html">导师</a>
+						</li><li class="top_nav">
+							<a href="practice.html">企业风采</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="nav" onmouseenter="navShow.showTime()" onmouseleave="navShow.noneTime()">
+			<div id="nav_box">
+				<ul class="nav_ul">
+					<li class="nav_li"><a href="teache1.html">校内导师</a></li>
+					<li class="nav_li"><a href="teacher2.html">校外导师</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="body">
+			<h1 id="body_h1">活动·讲座</h1>
+			<div class="body_a">
+				<a href="home.html">首页</a>
+				<span>></span>
+				<a href="">活动·讲座</a>
+				<span>></span>
+				<a href="activity.html">活动列表</a>
+			</div>
+
+			<div id="body_all">
+				<ul id="body_all_left">
+					<li class="body_all_li"><a href="news.html" class="body_all_a">最新动态</a></li>
+					<li class="body_all_li"><a href="activity.html" class="body_all_a">活动·讲座</a>
+
+					</li>
+					<li class="body_all_li" onclick="dispalyShow()"><a class="body_all_a">导师<span class="tri"></span></a>
+						<ul class="body_li_ul">
+							<li class="body_li_li"><a href="teache1.html" class="body_li_a">校内导师</a></li>
+							<li class="body_li_li"><a href="teacher2.html" class="body_li_a">校外导师</a></li>
+						</ul>
+					</li>
+					<li class="body_all_li"><a href="news.html" class="body_all_a">实践基地</a></li>
+				</ul>
+				<div id="body_all_right">
+					<div id="body_all_box">
+						<ul class="body_middle_passage">
+							<h2 class="body_all_ul_h2">活动列表</h2>
+							<li class="body_middle_li1">
+								<div class="body_li_time">
+									<div class="time_day">
+										03
+									</div>
+									<div class="time_month">
+										Apr
+									</div>
+								</div>
+								<div class="body_li_passage">
+									<div class="passage_box">
+										<a class="passage_title" href="activity_information.html">SOMETHING MORE</a>
+										<h3 class="h6">4月03日 00:00</h3>
+										<h3 class="h6">地点:没有</h3>
+										<a href="activity_information.html" class="passage_a">[活动详情]</a>
+									</div>
+								</div>
+							</li>
+
+							<li class="body_middle_li1">
+							<div class="body_li_time">
+								<div class="time_day">
+									03
+								</div>
+								<div class="time_month">
+									Apr
+								</div>
+							</div>
+							<div class="body_li_passage">
+								<div class="passage_box">
+									<a class="passage_title" href="activity_information.html">SOMETHING MORESOMETHING MORE SOMETHING MORE SOMETHING MORE</a>
+									<h3 class="h6">4月03日 00:00</h3>
+									<h3 class="h6">地点:没有</h3>
+									<a href="activity_information.html" class="passage_a">[活动详情]</a>
+								</div>
+							</div>
+						</li>
+
+							<li class="body_middle_li1">
+								<div class="body_li_time">
+									<div class="time_day">
+										02
+									</div>
+									<div class="time_month">
+										Apr
+									</div>
+								</div>
+								<div class="body_li_passage">
+									<div class="passage_box">
+										<a class="passage_title" href="activity_information.html">SOMETHING MORE</a>
+										<h3 class="h6">4月02日 00:00</h3>
+										<h3 class="h6">地点:没有</h3>
+										<a href="activity_information.html" class="passage_a">[活动详情]</a>
+									</div>
+								</div>
+							</li>
+
+							<li class="body_middle_li1">
+								<div class="body_li_time">
+									<div class="time_day">
+										01
+									</div>
+									<div class="time_month">
+										Apr
+									</div>
+								</div>
+								<div class="body_li_passage">
+									<div class="passage_box">
+										<a class="passage_title" href="activity_information.html">SOMETHING MORE</a>
+										<h3 class="h6">4月01日 00:00</h3>
+										<h3 class="h6">地点:没有</h3>
+										<a href="activity_information.html" class="passage_a">[活动详情]</a>
+									</div>
+								</div>
+							</li>
+
+							<li class="body_middle_li1">
+								<div class="body_li_time">
+									<div class="time_day">
+										01
+									</div>
+									<div class="time_month">
+										Apr
+									</div>
+								</div>
+								<div class="body_li_passage">
+									<div class="passage_box">
+										<a class="passage_title" href="activity_information.html">SOMETHING MORE</a>
+										<h3 class="h6">4月01日 00:00</h3>
+										<h3 class="h6">地点:没有</h3>
+										<a href="activity_information.html" class="passage_a">[活动详情]</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+
+						<ul id="body_all_ul2">
+							<li><a href="">上一页</a>
+
+							</li><li><a href="">1</a>
+
+							</li><li><a href="">下一页</a>
+
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="foot">
+			<span class="foot_span">相关链接</span><br />
+			<a class="foot_span foot_a" href="">校内链接:</a><br />
+			<a class="foot_span foot_a" href="">校外链接:</a>
+		</div>
+
+		<script type="text/javascript" src="js/all.js" ></script>
+		<script type="text/javascript" src="js/nav.js" ></script>
+		<!-- <script type="text/javascript" src="js/activity.js" ></script> -->
+	</body>
+</html>
