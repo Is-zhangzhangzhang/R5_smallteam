@@ -395,12 +395,23 @@ img,p,figcaption,div{
 }
 .time{
 	color: #959595;
+	position: relative;
+	float: left;
+	padding-right: 3px;
 }
 .middle_a, .time{
 	font-size: 13px;
 }
 .middle_a:hover{
 	color: #1086E6;
+}
+.middle_a{
+	display: inline-block;
+	width:400px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
 }
 .body_middle_li{
 	display: block;
